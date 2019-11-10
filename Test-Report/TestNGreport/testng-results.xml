@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="92564" started-at="2019-11-10T21:12:33 IST" finished-at="2019-11-10T21:14:06 IST">
+    <groups>
+      <group name="Form">
+        <method signature="SeleniumEssentials.gotoHomePage()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="gotoHomePage" class="SeleniumTests.SeleniumEssentials"/>
+        <method signature="SeleniumEssentials.Go2CompleteForm()[pri:1, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="Go2CompleteForm" class="SeleniumTests.SeleniumEssentials"/>
+        <method signature="SeleniumEssentials.FilltheForm()[pri:2, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="FilltheForm" class="SeleniumTests.SeleniumEssentials"/>
+      </group> <!-- Form -->
+      <group name="swithorAlert">
+        <method signature="SeleniumEssentials.acceptAlert()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="acceptAlert" class="SeleniumTests.SeleniumEssentials"/>
+        <method signature="SeleniumEssentials.switchWindow()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="switchWindow" class="SeleniumTests.SeleniumEssentials"/>
+      </group> <!-- swithorAlert -->
+    </groups>
+    <test name="Regression1" duration-ms="92564" started-at="2019-11-10T21:12:33 IST" finished-at="2019-11-10T21:14:06 IST">
+      <class name="SeleniumTests.SeleniumEssentials">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="Setup" is-config="true" duration-ms="7" started-at="2019-11-10T21:12:33 IST" finished-at="2019-11-10T21:12:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="LaunchApp" is-config="true" duration-ms="13019" started-at="2019-11-10T21:12:33 IST" finished-at="2019-11-10T21:12:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="acceptAlert()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="acceptAlert" duration-ms="235" started-at="2019-11-10T21:12:46 IST" finished-at="2019-11-10T21:12:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="tearDown" is-config="true" duration-ms="757" started-at="2019-11-10T21:12:47 IST" finished-at="2019-11-10T21:12:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="LaunchApp" is-config="true" duration-ms="12505" started-at="2019-11-10T21:12:47 IST" finished-at="2019-11-10T21:13:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="gotoHomePage()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="gotoHomePage" duration-ms="123" started-at="2019-11-10T21:13:00 IST" finished-at="2019-11-10T21:13:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="tearDown" is-config="true" duration-ms="673" started-at="2019-11-10T21:13:00 IST" finished-at="2019-11-10T21:13:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="LaunchApp" is-config="true" duration-ms="12010" started-at="2019-11-10T21:13:01 IST" finished-at="2019-11-10T21:13:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="switchWindow()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="switchWindow" duration-ms="4183" started-at="2019-11-10T21:13:13 IST" finished-at="2019-11-10T21:13:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="tearDown" is-config="true" duration-ms="784" started-at="2019-11-10T21:13:17 IST" finished-at="2019-11-10T21:13:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="LaunchApp" is-config="true" duration-ms="12186" started-at="2019-11-10T21:13:18 IST" finished-at="2019-11-10T21:13:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="Go2CompleteForm()[pri:1, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="Go2CompleteForm" duration-ms="10592" started-at="2019-11-10T21:13:30 IST" depends-on-methods="SeleniumTests.SeleniumEssentials.gotoHomePage" finished-at="2019-11-10T21:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Go2CompleteForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-11-10T21:13:40 IST" finished-at="2019-11-10T21:13:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="LaunchApp" is-config="true" duration-ms="11864" started-at="2019-11-10T21:13:41 IST" finished-at="2019-11-10T21:13:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="FilltheForm()[pri:2, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="FilltheForm" duration-ms="12172" started-at="2019-11-10T21:13:53 IST" depends-on-methods="SeleniumTests.SeleniumEssentials.Go2CompleteForm" finished-at="2019-11-10T21:14:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilltheForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTests.SeleniumEssentials@366e2eef]" name="tearDown" is-config="true" duration-ms="742" started-at="2019-11-10T21:14:05 IST" finished-at="2019-11-10T21:14:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTests.SeleniumEssentials -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
